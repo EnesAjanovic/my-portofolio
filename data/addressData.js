@@ -42,7 +42,7 @@ module.exports = [
         info: (
             <>
                 <p className="text-gray-lite text-lg dark:text-[#A6A6A6] ">
-                    Braće Čišića 17, Mostar
+                    Braće Čišića 17, Mostar, BiH
                 </p>
             </>
         ),

@@ -1,13 +1,12 @@
 "use client";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai";
 import Link from "next/link";
-import { useState } from "react";
+import {useState} from "react";
 import HeaderMenu from "@/data/HeaderMenu";
-import Image from "next/image";
 import DarkMode from "../mode/DarkMode";
 import DarkModeMobile from "../mode/DarkModeMobile";
-import { isActiveLink } from "@/utilis/linkActiveChecker";
-import { usePathname } from "next/navigation";
+import {isActiveLink} from "@/utilis/linkActiveChecker";
+import {usePathname} from "next/navigation";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,9 +19,9 @@ const Header = () => {
         <header className="flex justify-between items-center fixed top-0 left-0 w-full lg:static z-[1111111111]  ">
           <div className=" flex justify-between w-full px-4 lg:px-0 bg-[#F3F6F6] lg:bg-transparent lg:dark:bg-transparent dark:bg-black ">
             <div className="flex justify-between w-full items-center space-x-4 lg:my-8 my-5 ">
-              <Link className="text-5xl font-semibold" href="/">
+              <Link className="text-2xl font-semibold" href="/">
                 {/* website logo  */}
-                <div className="bg-gradient-to-r from-red-500 to-pink-500 text-white p-4 rounded-md">
+                <div className="bg-gradient-to-r from-red-500 to-pink-500 text-white p-3 rounded-md">
                   EA
                 </div>
               </Link>

@@ -21,7 +21,7 @@ const index = () => {
         <div data-aos="fade">
           {/* Start top about info */}
           <div className="py-12">
-            <h2 className="after-effect after:left-52 mt-12 lg:mt-0 ">
+            <h2 className="after-effect after:left-52 mt-16 lg:mt-0 ">
               About Me
             </h2>
             {/* Page Title */}

@@ -59,49 +59,6 @@ const Works1 = () => {
 
     return (
         <>
-            {/* Portfilo fillter tab start */}
-            {/*<ul className="mt-[40px] flex w-full justify-start md:justify-end flex-wrap font-medium pb-12">*/}
-            {/*  <li*/}
-            {/*    className={`${*/}
-            {/*      test === "All" ? "text-[#FA5252]" : "fillter-btn "*/}
-            {/*    } mr-4 md:mx-4`}*/}
-            {/*    onClick={() => handleSearch("All")}*/}
-            {/*  >*/}
-            {/*    All*/}
-            {/*  </li>*/}
-            {/*  <li*/}
-            {/*    className={`${*/}
-            {/*      test === "Video" ? "text-[#FA5252]" : "fillter-btn"*/}
-            {/*    } mr-4 md:mx-4`}*/}
-            {/*    onClick={() => handleSearch("Video")}*/}
-            {/*  >*/}
-            {/*    Video*/}
-            {/*  </li>*/}
-            {/*  <li*/}
-            {/*    className={`${*/}
-            {/*      test === "Web Design" ? "text-[#FA5252]" : "fillter-btn"*/}
-            {/*    } mr-4 md:mx-4`}*/}
-            {/*    onClick={() => handleSearch("Web Design")}*/}
-            {/*  >*/}
-            {/*    Web Design*/}
-            {/*  </li>*/}
-            {/*  <li*/}
-            {/*    className={`${*/}
-            {/*      test === "Logo" ? "text-[#FA5252]" : "fillter-btn ml-0"*/}
-            {/*    } mr-4 md:mx-4`}*/}
-            {/*    onClick={() => handleSearch("Logo")}*/}
-            {/*  >*/}
-            {/*    Logo*/}
-            {/*  </li>*/}
-            {/*  <li*/}
-            {/*    className={`${test === "UI/UX" ? "text-[#FA5252]" : "fillter-btn"}  `}*/}
-            {/*    onClick={() => handleSearch("UI/UX")}*/}
-            {/*  >*/}
-            {/*    Graphic Design*/}
-            {/*  </li>*/}
-            {/*</ul>*/}
-            {/* End portfolio filter tab */}
-
             {/* Start portfolio items */}
             <Masonry
                 breakpointCols={breakpointColumnsObj}
@@ -143,11 +100,11 @@ const Works1 = () => {
                 ariaHideApp={false}
                 isOpen={isOpen}
                 onRequestClose={() => setIsOpen(false)}
-                className=" outline-none flex items-center  p-4 md:p-8  rounded-2xl my-8"
+                className="outline-none flex items-center p-4 md:p-8 rounded-2xl my-8"
             >
                 <div
-                    className=" w-full md:w-10/12 flex items-center   lg:w-[850px] bg-white dark:bg-[#323232] mx-auto rounded-xl p-4 md:p-8 absolute left-1/2 top-1/2 transform -translate-x-[50%] -translate-y-[50%] shadow-lg ">
-                    <div className=" overflow-y-scroll max-h-[80vh] no-scrollbar ">
+                    className="w-[90%] mt-[6.5rem] md:mt-0 md:w-10/12 flex items-center lg:w-[850px] bg-white dark:bg-[#323232] mx-auto rounded-xl p-4 md:p-8 absolute left-1/2 top-1/2 transform -translate-x-[50%] -translate-y-[50%] shadow-lg ">
+                    <div className="overflow-y-scroll max-h-[80vh] no-scrollbar ">
                         {/* close button */}
                         <BsXCircle
                             onClick={() => setIsOpen(false)}
@@ -198,11 +155,11 @@ const Works1 = () => {
                         </p>
 
                         <Image
-                            className="w-full md:h-[450px]  h-auto object-cover rounded-xl mt-6"
+                            className="w-full md:h-[300px] h-[200px] object-cover rounded-xl mt-6"
                             src={singleData?.img}
                             alt="blog details image"
                             width={620}
-                            height={420}
+                            height={200}
                             loading="lazy"
                         />
                     </div>

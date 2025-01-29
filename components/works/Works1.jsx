@@ -103,7 +103,7 @@ const Works1 = () => {
                 className="outline-none flex items-center p-4 md:p-8 rounded-2xl my-8"
             >
                 <div
-                    className="w-[90%] mt-[6.5rem] md:mt-0 md:w-10/12 flex items-center lg:w-[850px] bg-white dark:bg-[#323232] mx-auto rounded-xl p-4 md:p-8 absolute left-1/2 top-1/2 transform -translate-x-[50%] -translate-y-[50%] shadow-lg ">
+                    className="w-[90%] mt-[5.5rem] md:mt-0 md:w-10/12 flex items-center lg:w-[850px] bg-white dark:bg-[#323232] mx-auto rounded-xl p-4 md:p-8 absolute left-1/2 top-1/2 transform -translate-x-[50%] -translate-y-[50%] shadow-lg ">
                     <div className="overflow-y-scroll max-h-[80vh] no-scrollbar ">
                         {/* close button */}
                         <BsXCircle

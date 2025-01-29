@@ -1,0 +1,103 @@
+module.exports = [
+    {
+        id: "1",
+        project: "Web application",
+        tag: "Frontend Developer",
+        title: "Meela Health",
+        img: "/images/work_images/meela-logo.png",
+        imgSmall: "/images/work_images/meela-logo.png",
+        bg: "#FFF0F0",
+        client: "Meela",
+        langages: "JS, ReactJS, Material UI",
+        link: "https://meelahealth.com/",
+        linkText: "meelahealth.com",
+        description: "A platform designed to connect patients with mental health professionals. The system used complex algorithms to match patients with the most suitable therapists based on a detailed questionnaire from both parties. I built the frontend interface, ensuring a smooth, user-friendly experience"
+    },
+    {
+        id: "5",
+        project: 'Web application',
+        tag: "Frontend Developer",
+        title: "Cargotec",
+        img: "/images/work_images/cargo-small.jpg",
+        imgSmall: "/images/work_images/cargo-small.jpg",
+        bg: "#FFFAE9",
+        client: "Cargotec",
+        langages: "JS, ReactJS",
+        link: "https://www.cargotec.com/",
+        linkText: "cargotec.com",
+        description:
+            "This project centered on the condition monitoring of machines in ports. I integrated camera functionality, allowing users to take or upload photos with serial numbers, helping the system recognize machinery and automate the process of entering serial data."
+    },
+    {
+        id: "2",
+        project: 'Chrome Extension',
+        tag: "Frontend Developer",
+        title: "RE:SOLVR",
+        img: "/images/work_images/resolvr-logo.png",
+        imgSmall: "/images/work_images/resolvr-logo.png",
+        bg: "#FFF3FC",
+        client: "Resolvr",
+        langages: "JS, ReactJS",
+        link: "https://resolvr.se/",
+        linkText: "resolvr.se",
+        description:
+            "A browser extension designed to help clients gather data from various websites. I served as the lead frontend developer, managing the project from start to finish. The project involved integration with Azure AD for authentication, background processes, and service workers for seamless communication between the client and the authorization server."
+    },
+
+    {
+        id: "4",
+        project: "Intranet sharepoint app",
+        tag: "Frontend Developer",
+        title: "Adriatics Intranet",
+        img: "/images/work_images/adriatic-big.webp",
+        imgSmall: "/images/work_images/adriatic-small.jpg",
+        bg: "#E9FAFF",
+        client: "Adriatic Metals",
+        langages: "JS, ReactJS, Fluent UI",
+        link: "https://www.adriaticmetals.com/",
+        linkText: "adriaticmetals.com",
+        description: "A Sharepoint-like web application, allowing users within a company's local network to read, write, and manage documents. I led the development and ensured the security and functionality of the frontend, allowing secure access to devices within the client's local network."
+    },
+    {
+        id: "3",
+        project: "Web application",
+        tag: "Frontend Developer",
+        title: "Srenity",
+        img: "/images/work_images/srenity-big.png",
+        imgSmall: "/images/work_images/srenity-logo.png",
+        bg: "#FFF0F0",
+        client: "Srenity",
+        langages: "JS, ReactJS",
+        link: "https://srenity.se/",
+        linkText: "srenity.se",
+        description: "As the lead frontend developer, I built a platform that offers real estate managers a system to control and monitor properties (e.g., managing temperature, humidity, water, and energy). The platform enabled real-time management of devices, alerts for emergencies, and overall system control."
+    },
+    {
+        id: "6",
+        project: 'Static news app',
+        tag: "Frontend Developer",
+        title: "Aktarr",
+        img: "/images/work_images/aktarr.png",
+        imgSmall: "/images/work_images/aktarr.png",
+        bg: "#F4F4FF",
+        client: "Aktarr",
+        langages: "JS, NextJS",
+        link: "https://aktarr.se/",
+        linkText: "aktarr.se",
+        description: "A global news website focusing on Sweden. I spearheaded the website's speed optimization and was responsible for a complete redesign, enhancing both the performance and user experience."
+    },
+    {
+        id: "7",
+        project: 'Web application',
+        tag: "Frontend Developer",
+        title: "Seco Tools",
+        img: "/images/work_images/seco.png",
+        imgSmall: "/images/work_images/seco.png",
+        bg: "#FFF0F8",
+        client: "Seco Tools",
+        langages: "JS, ReactJS, Three.js",
+        link: "https://www.secotools.com/",
+        linkText: "secotools.com",
+        description: "A visual review platform for mechanical engineers to upload and refine their AutoCAD work using 3D technology. My role involved developing the frontend, conducting final studies on the piece, and generating reports with detailed sequences, materials, and images from multiple angles."
+    },
+];

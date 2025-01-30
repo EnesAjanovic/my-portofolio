@@ -6,6 +6,8 @@ import serviceData from "@/data/serviceData";
 const Service = () => {
     const {theme, setTheme} = useTheme();
 
+    console.log(theme)
+
     return (
         <>
             {serviceData.map((item) => (
@@ -29,7 +31,7 @@ const Service = () => {
                             {item?.title}
                         </h3>
                         {item?.des.split("\n").map(desc => <p className="leading-2 text-gray-lite dark:text-[#A6A6A6]">
-                          • {desc}
+                            • {desc}
                         </p>)}
                     </div>
                 </div>

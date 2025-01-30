@@ -25,7 +25,7 @@ const index = () => {
                     </h3>
                     <p className="text-gray-lite  dark:text-color-910 leading-7">
 
-                        I’m a Frontend Developer from Mostar, Bosnia and Herzegovina with over 5 years of experience
+                        I’m a Frontend Developer from Gornji Vakuf, currently living in Mostar, Bosnia and Herzegovina with over 5 years of experience
                         building modern, responsive, and user-friendly web applications. My expertise lies in JavaScript
                         and its powerful frameworks, mostly including React, Next.js, and Node.js, which I use to craft
                         seamless and efficient web experiences.

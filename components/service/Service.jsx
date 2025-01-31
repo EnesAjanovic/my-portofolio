@@ -6,7 +6,6 @@ import serviceData from "@/data/serviceData";
 const Service = () => {
     const {theme, setTheme} = useTheme();
 
-    console.log(theme)
 
     return (
         <>

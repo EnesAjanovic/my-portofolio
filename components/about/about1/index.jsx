@@ -5,20 +5,20 @@ const index = () => {
     return (
         <div className="grid grid-cols-12 md:gap-10 pt-4 md:pt-[40px] items-center">
             {/* start .col and routePath image left */}
-            <div className="col-span-12 md:col-span-4">
-                {/* personal images for routePath page  */}
-                <Image
-                    className="w-full md:w-[330px] md:h-[400px] object-cover overflow-hidden rounded-[35px] mb-3 md:mb-0"
-                    src="/images/about/about.jpg"
-                    width={300}
-                    height={400}
-                    alt="routePath"
-                />
-            </div>
+            {/*<div className="col-span-12 md:col-span-4">*/}
+            {/*    /!* personal images for routePath page  *!/*/}
+            {/*    <Image*/}
+            {/*        className="w-full md:w-[330px] md:h-[400px] object-cover overflow-hidden rounded-[35px] mb-3 md:mb-0"*/}
+            {/*        src="/images/about/about.jpg"*/}
+            {/*        width={300}*/}
+            {/*        height={400}*/}
+            {/*        alt="routePath"*/}
+            {/*    />*/}
+            {/*</div>*/}
             {/* End .col and routePath image left */}
 
             {/* Start about right content */}
-            <div className="col-span-12 md:col-span-8 space-y-2.5">
+            <div className="col-span-12  space-y-2.5">
                 <div className=" md:mr-12 xl:mr-16">
                     <h3 className="text-4xl font-medium dark:text-white mb-2.5 ">
                         Who am i?

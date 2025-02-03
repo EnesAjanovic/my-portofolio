@@ -8,13 +8,6 @@ import "../styles/globals.css";
 import "../styles/custom.css";
 import {ToastContainer} from "react-toastify";
 
-export const metadata = {
-    title: "Portofolio site",
-    icons: {
-        icon: "/favicon.ico",
-        shortcut: "/favicon.ico",
-    },
-};
 
 export default function RootLayout({children}) {
     useEffect(() => {

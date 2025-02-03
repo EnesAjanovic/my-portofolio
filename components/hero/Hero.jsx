@@ -7,15 +7,22 @@ const Hero = () => {
             className="flex flex-col items-center h-[100vh] md:h-[90vh] lg:h-[80vh]  xl:h-[71vh]  justify-center"
             data-aos="fade"
         >
-            <Image
-                className="rounded-full w-[250px] h-[250px] 2xl:w-[280px] 2xl:h-[280px]"
-                src="/images/about/cv_image.jpg"
-                width={250}
-                height={250}
-                priority
-                objectFit={'cover'}
-                alt="hero image"
-            />
+            {/*<Image*/}
+            {/*    className="rounded-full w-[250px] h-[250px] 2xl:w-[280px] 2xl:h-[280px] object-contain"*/}
+            {/*    src="/images/about/enes-prot.JPG"*/}
+            {/*    width={250}*/}
+            {/*    height={250}*/}
+            {/*    priority*/}
+            {/*    alt="hero image"*/}
+            {/*/>*/}
+            <div className="relative w-64 h-[10.5rem]">
+                <Image
+                    src="/images/about/enes-prot.JPG"
+                    alt="High Quality Image"
+                    fill
+                    className="object-contain rounded-2xl"
+                />
+            </div>
             <h3 className="mt-6 mb-1 text-5xl font-semibold dark:text-white">
                 Enes Ajanović
             </h3>
